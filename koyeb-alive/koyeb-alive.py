@@ -79,7 +79,7 @@ def send_tg_message(message: str) -> Optional[Dict[str, Any]]:
     payload = {
         "chat_id": chat_id,
         "text": message,
-        "parse_mode": "Markdown"
+        #"parse_mode": "Markdown"
     }
     try:
         response = requests.post(url, data=payload, timeout=REQUEST_TIMEOUT)
