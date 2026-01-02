@@ -14,7 +14,7 @@ on:
           - SheerID
           - ICMP9
   schedule:
-    - cron: '10 0 * * *'
+    #- cron: '10 0 * * *'
 
 jobs:
   multi_checkin:
